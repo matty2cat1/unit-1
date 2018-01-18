@@ -3,4 +3,4 @@
 #brokenShiftKey.py - Making something in all caps
 
 loud = input("Say something ")
-print(loud.upper)
+print(loud.upper())
