@@ -1,0 +1,8 @@
+#Matt Westelman
+#1/25/17
+#warmup.py - Let's see what we can do
+
+from random import randint
+
+name = input("What is your name? ")
+print("Hello " , name,", your lucky number is " , randint(0, 10))
