@@ -9,4 +9,6 @@ yPoint2 = float(input("y2 = "))
 
 print("slope = ", round((xPoint1-xPoint2)/(yPoint1 - yPoint2), 3))
 slope = round((xPoint1-xPoint2)/(yPoint1 - yPoint2), 3)
-print("b = 
+b =  yPoint1-slope*xPoint1
+print("b = ", b)
+print ("y = ", slope, "x + ", b)  
