@@ -1,0 +1,10 @@
+#Matt Westelman
+#Unit 1 quiz
+#1/26/18
+
+print("Hello")
+name = input("What is your name? ")
+num1 = int(input("Please enter your favorite number "))
+print(name*num1)
+num2 = int(input("Please enter your second favorite number "))
+print("Your lucky number is ", num1**num2)
